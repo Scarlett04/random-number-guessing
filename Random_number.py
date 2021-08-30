@@ -1,7 +1,7 @@
 import random
-secretNumber = random.randint(1, 20)
-print("I am thinking of a number between 1 and 20.")
-for guessesTaken in range(1, 7):
+secretNumber = random.randint(1, 1000)
+print("I am thinking of a number between 1 and 1000.")
+for guessesTaken in range(1, 11):
     print('Take a guess.')
     guess = int(input())
 
